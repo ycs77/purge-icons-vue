@@ -6,7 +6,7 @@ import postcss from 'rollup-plugin-postcss'
 import { terser } from 'rollup-plugin-terser'
 import { camelCase, upperFirst } from 'lodash'
 import createBanner from 'create-banner'
-import { name, dependencies } from './package.json'
+import { name } from './package.json'
 
 const src = path.resolve(__dirname, 'src')
 const dist = path.resolve(__dirname, 'dist')
@@ -37,7 +37,7 @@ const baseConfig = {
     }),
     postcss()
   ],
-  external: [/@babel\/runtime/, ...Object.keys(dependencies)]
+  external: [/@babel\/runtime/, '@purge-icons/generated']
 }
 
 export default [

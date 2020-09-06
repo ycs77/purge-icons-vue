@@ -5,7 +5,7 @@
  * Copyright 2020 Lucas Yang
  * Released under the MIT license
  *
- * Date: 2020-09-06T16:10:56.098Z
+ * Date: 2020-09-06T18:02:35.487Z
  */
 
 'use strict';
@@ -229,10 +229,9 @@ function install(Vue, options) {
   install.installed = true;
   Vue.component(__vue_component__.name, __vue_component__);
 }
-
 var index = {
-  install: install,
-  Icon: __vue_component__
+  install: install
 };
 
+exports.Icon = __vue_component__;
 exports.default = index;

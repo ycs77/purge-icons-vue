@@ -838,18 +838,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@iconify/iconify@>=2.0.0-beta.6":
-  version "2.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@iconify/iconify/-/iconify-2.0.0-rc.1.tgz#a8bae29d71016d5af98c69f56a73c4a040217b3a"
-  integrity sha512-ji5H04VjYtR4seIEgVVLPxg1KRhrFquOiyfPyLVS6vYPkuqV6bcWdssi05YSmf/OAzG4E7Qsg80/bOKyd5tYTw==
-
-"@purge-icons/generated@^0.4":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@purge-icons/generated/-/generated-0.4.0.tgz#3f11594bd16461dea74dc6fffed3463d986c2eb2"
-  integrity sha512-NJHTc+5Va6zVhN8Xmdg9+tvOD/zFKyh4mbtdNzIlQHf6hhGhkV71DTqN0JM1ajJxvf86SByXkoI4C2SJ+3IZjQ==
-  dependencies:
-    "@iconify/iconify" ">=2.0.0-beta.6"
-
 "@rollup/plugin-babel@^5.2.0":
   version "5.2.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.2.0.tgz#b87556d61ed108b4eaf9d18b5323965adf8d9bee"

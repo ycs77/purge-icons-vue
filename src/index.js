@@ -11,4 +11,6 @@ function install(Vue, options) {
   Vue.component(Icon.name, Icon)
 }
 
-export default { install, Icon }
+export { Icon }
+
+export default { install }

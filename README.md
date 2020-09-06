@@ -1,23 +1,15 @@
-# PurgeIcons's Vue Icon Component
+# PurgeIcons's Vue 2 Icon Component
 
 > Adapted from https://github.com/antfu/vitesse/blob/master/src/components/Icon.vue
 
-## Installation
+Must install [PurgeIcons](https://github.com/antfu/purge-icons).
 
-Using for Vue.js 3:
+## Installation
 
 ```bash
 npm i purge-icons-vue
 # or
 yarn add purge-icons-vue
-```
-
-Using for Vue.js 2:
-
-```bash
-npm i purge-icons-vue@^1.0
-# or
-yarn add purge-icons-vue@^1.0
 ```
 
 And register in Vue app entry:

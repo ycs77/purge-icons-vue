@@ -1,11 +1,11 @@
 /*!
- * purge-icons-vue v1.0.0
+ * purge-icons-vue v1.0.1
  * https://github.com/ycs77/purge-icons-vue
  *
  * Copyright 2020 Lucas Yang
  * Released under the MIT license
  *
- * Date: 2020-09-06T18:02:35.487Z
+ * Date: 2020-09-08T07:51:57.719Z
  */
 
 'use strict';

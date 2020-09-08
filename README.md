@@ -20,6 +20,12 @@ import PurgeIconsVue from 'purge-icons-vue'
 Vue.use(PurgeIconsVue)
 ```
 
+If you installed `postcss-import`, can import CSS file:
+
+```css
+@import 'purge-icons-vue';
+```
+
 ## Usage
 
 ```html

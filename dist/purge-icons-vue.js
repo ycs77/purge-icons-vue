@@ -1,11 +1,11 @@
 /*!
- * purge-icons-vue v1.1.0
+ * purge-icons-vue v1.2.0
  * https://github.com/ycs77/purge-icons-vue
  *
  * Copyright 2020 Lucas Yang
  * Released under the MIT license
  *
- * Date: 2020-09-08T09:15:12.760Z
+ * Date: 2020-09-08T09:47:07.182Z
  */
 
 'use strict';
@@ -190,36 +190,6 @@ __vue_render__._withStripped = true;
     undefined,
     undefined
   );
-
-function styleInject(css, ref) {
-  if ( ref === void 0 ) ref = {};
-  var insertAt = ref.insertAt;
-
-  if (!css || typeof document === 'undefined') { return; }
-
-  var head = document.head || document.getElementsByTagName('head')[0];
-  var style = document.createElement('style');
-  style.type = 'text/css';
-
-  if (insertAt === 'top') {
-    if (head.firstChild) {
-      head.insertBefore(style, head.firstChild);
-    } else {
-      head.appendChild(style);
-    }
-  } else {
-    head.appendChild(style);
-  }
-
-  if (style.styleSheet) {
-    style.styleSheet.cssText = css;
-  } else {
-    style.appendChild(document.createTextNode(css));
-  }
-}
-
-var css_248z = ".icon {\n  display: inline-block;\n  width: 1em;\n  height: 1em;\n  vertical-align: middle;\n}\n\n.icon .iconify {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  vertical-align: super;\n}\n";
-styleInject(css_248z);
 
 function install(Vue, options) {
   if (install.installed) {

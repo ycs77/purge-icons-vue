@@ -35,7 +35,10 @@ const baseConfig = {
     vuePlugin({
       compileTemplate: true
     }),
-    postcss()
+    postcss({
+      minimize: true,
+      extract: path.resolve(dist, `${name}.css`)
+    })
   ],
   external: [/@babel\/runtime/, '@purge-icons/generated']
 }
@@ -82,5 +85,13 @@ export default [
         terser()
       ]
     }
-  }
+  },
+  // {
+  //   input: path.resolve(src, 'style.css'),
+  //   plugins: [
+  //     postcss({
+  //       extract: path.resolve(dist, `${name}.css`)
+  //     })
+  //   ]
+  // }
 ]

@@ -1,5 +1,9 @@
 import Vue, { PluginFunction } from 'vue'
 
-export default class PurgeIconsVue {
-  static install(vue: typeof Vue): PluginFunction<never>
+export interface PurgeIconsVueOptions {}
+
+const PurgeIconsVue = {
+  install(vue: typeof Vue, options?: PurgeIconsVueOptions): PluginFunction<never>
 }
+
+export default PurgeIconsVue

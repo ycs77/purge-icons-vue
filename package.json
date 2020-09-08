@@ -1,6 +1,6 @@
 {
   "name": "purge-icons-vue",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "license": "MIT",
   "description": "PurgeIcons's vue 2 icon component",
   "keywords": [
@@ -16,6 +16,7 @@
   "source": "src/index.js",
   "main": "dist/purge-icons-vue.min.js",
   "module": "dist/purge-icons-vue.esm.min.js",
+  "style": "dist/purge-icons-vue.css",
   "homepage": "https://github.com/ycs77/purge-icons-vue",
   "repository": {
     "type": "git",

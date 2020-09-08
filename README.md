@@ -1,5 +1,7 @@
 # PurgeIcons's Vue 2 Icon Component
 
+[![npm version](https://img.shields.io/npm/v/purge-icons-vue?style=flat-square)](https://www.npmjs.com/package/purge-icons-vue)
+
 > Adapted from https://github.com/antfu/vitesse/blob/master/src/components/Icon.vue
 
 Must install [PurgeIcons](https://github.com/antfu/purge-icons).

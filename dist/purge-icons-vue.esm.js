@@ -1,11 +1,11 @@
 /*!
- * purge-icons-vue v1.0.1
+ * purge-icons-vue v1.1.0
  * https://github.com/ycs77/purge-icons-vue
  *
  * Copyright 2020 Lucas Yang
  * Released under the MIT license
  *
- * Date: 2020-09-08T07:51:57.719Z
+ * Date: 2020-09-08T09:15:12.760Z
  */
 
 import _regeneratorRuntime from '@babel/runtime/regenerator';
@@ -147,7 +147,7 @@ var __vue_render__ = function() {
   var _vm = this;
   var _h = _vm.$createElement;
   var _c = _vm._self._c || _h;
-  return _c("span", { ref: "el" })
+  return _c("span", { ref: "el", staticClass: "icon" })
 };
 var __vue_staticRenderFns__ = [];
 __vue_render__._withStripped = true;
@@ -208,7 +208,7 @@ function styleInject(css, ref) {
   }
 }
 
-var css_248z = ".iconify {\r\n  display: inline-block;\r\n  width: 1em;\r\n  height: 1em;\r\n  vertical-align: middle;\r\n}\r\n";
+var css_248z = ".icon {\n  display: inline-block;\n  width: 1em;\n  height: 1em;\n  vertical-align: middle;\n}\n\n.icon .iconify {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  vertical-align: super;\n}\n";
 styleInject(css_248z);
 
 function install(Vue, options) {
